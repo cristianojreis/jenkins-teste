@@ -15,10 +15,11 @@ Teste para validação do Jenkins MIA.
  - 6) Acessar a pasta clonada, e executar os comandos abaixo.
 
 ## Comandos
-´
+"
 docker-compose down --remove-orphans
 docker-compose up
-´
+"
+
 ### Repetição do Teste
 Basta executar os dois comandos novamente para iniciar os testes do início.
 
