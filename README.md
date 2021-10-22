@@ -1,5 +1,8 @@
-# jenkins-teste
+# Teste de Validação do Jenkins MIA para realização no amibente openstack EVEO
 Teste para validação do Jenkins MIA.
+  - Ubuntu 20.04 ou Debian 10
+  - Docker version 20.10.9, build c2ea9bc
+  - Docker Compose version 1.29.2, build 5becea4c
 
 ## Requisitos
  - 1) Preferencialmente usar o Ubuntu 20.04 na versão server.
