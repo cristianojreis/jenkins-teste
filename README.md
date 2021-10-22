@@ -3,6 +3,8 @@ Teste para validação do Jenkins MIA.
   - Ubuntu 20.04 ou Debian 10
   - Docker version 20.10.9, build c2ea9bc
   - Docker Compose version 1.29.2, build 5becea4c
+  - Imagem do Jenkins Utilizada em 22/10/2021: jenkins/jenkins:latest
+    - DIGEST:sha256:d554ea9020aaa14198403320ee9b7f33c38610860a87bf018700f7fe785b73a6
 
 ## Requisitos
  - 1) Preferencialmente usar o Ubuntu 20.04 na versão server.
