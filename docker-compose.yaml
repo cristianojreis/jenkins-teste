@@ -2,7 +2,7 @@ version: "3.2"
 
 services:
   jenkins:
-    container_name: mia-dvo-jenkins
+    container_name: jenkins-teste
     image: jenkins/jenkins:lts
     hostname: jenkins
     restart: always
@@ -12,8 +12,8 @@ services:
       - 80:8080
       - 50000:50000
     networks:
-      - mia-dvo-network
+      - jenkins-teste-network
 
 networks:
-  mia-dvo-network:
+  jenkins-teste-network:
     driver: bridge
