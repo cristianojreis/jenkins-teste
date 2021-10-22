@@ -1,0 +1,19 @@
+version: "3.2"
+
+services:
+  jenkins:
+    container_name: mia-dvo-jenkins
+    image: jenkins/jenkins:lts
+    hostname: jenkins
+    restart: always
+    privileged: true
+    user: root
+    ports:
+      - 80:8080
+      - 50000:50000
+    networks:
+      - mia-dvo-network
+
+networks:
+  mia-dvo-network:
+    driver: bridge
