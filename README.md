@@ -19,7 +19,7 @@ Teste para validação do Jenkins MIA.
   <code>
     docker-compose down --remove-orphans
     docker-compose up
-  <code>
+  </code>
 </pre>
 
 ### Repetição do Teste
